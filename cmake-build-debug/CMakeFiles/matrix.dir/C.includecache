@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arnisfet/Desktop/matrix/main.c
+matrix.h
+/home/arnisfet/Desktop/matrix/matrix.h
+
+/home/arnisfet/Desktop/matrix/matrix.h
+stdio.h
+-
+stdlib.h
+-
+
