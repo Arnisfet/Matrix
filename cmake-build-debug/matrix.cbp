@@ -76,6 +76,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/arnisfet/Desktop/matrix/arrays_func.c">
+			<Option target="matrix"/>
+		</Unit>
 		<Unit filename="/home/arnisfet/Desktop/matrix/main.c">
 			<Option target="matrix"/>
 		</Unit>

@@ -129,6 +129,30 @@ matrix/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix.dir/build.make CMakeFiles/matrix.dir/build
 .PHONY : matrix/fast
 
+arrays_func.o: arrays_func.c.o
+.PHONY : arrays_func.o
+
+# target to build an object file
+arrays_func.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix.dir/build.make CMakeFiles/matrix.dir/arrays_func.c.o
+.PHONY : arrays_func.c.o
+
+arrays_func.i: arrays_func.c.i
+.PHONY : arrays_func.i
+
+# target to preprocess a source file
+arrays_func.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix.dir/build.make CMakeFiles/matrix.dir/arrays_func.c.i
+.PHONY : arrays_func.c.i
+
+arrays_func.s: arrays_func.c.s
+.PHONY : arrays_func.s
+
+# target to generate assembly for a file
+arrays_func.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix.dir/build.make CMakeFiles/matrix.dir/arrays_func.c.s
+.PHONY : arrays_func.c.s
+
 main.o: main.c.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... matrix"
+	@echo "... arrays_func.o"
+	@echo "... arrays_func.i"
+	@echo "... arrays_func.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

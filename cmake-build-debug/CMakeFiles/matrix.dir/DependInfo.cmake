@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/arnisfet/Desktop/matrix/arrays_func.c" "/home/arnisfet/Desktop/matrix/cmake-build-debug/CMakeFiles/matrix.dir/arrays_func.c.o"
   "/home/arnisfet/Desktop/matrix/main.c" "/home/arnisfet/Desktop/matrix/cmake-build-debug/CMakeFiles/matrix.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

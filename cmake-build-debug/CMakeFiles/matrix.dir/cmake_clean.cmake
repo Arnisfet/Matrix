@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/matrix.dir/arrays_func.c.o"
   "CMakeFiles/matrix.dir/main.c.o"
   "matrix"
   "matrix.pdb"
